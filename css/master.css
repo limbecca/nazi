@@ -1,9 +1,11 @@
 h1{
-  font-size: 100px;
+  font-size: 9vw;
   text-align: center;
-  margin-left: 18vw;
+  margin-left: 8vw;
+  margin-top: 20vw;
   z-index: 3;
   position: absolute;
+  margin-bottom: 5000vw;
 }
 .nsdap_logo{
   width: 700px;
@@ -11,17 +13,32 @@ h1{
 }
 body{
   background-image: url(img/home.jpeg);
+  margin: 0;
+  padding: 0;
+	display: block;
+  vertical-align: left;
+  overflow: hidden;
 }
 .home_jpeg{
   z-index: 1;
-  /* margin: auto; */
   align-items: center;
-  /* position: fixed;
+  position: fixed;
   vertical-align: left;
-  line-height: 5.0em; */
-  width: 1300px;
+  line-height: 0;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  float: left;
+	display: block;
+  overflow: hidden;
+  margin-bottom: 50vw;
 }
 .div1{
   position: relative;
   font-size: 0;
+  z-index: 1;
+  align-items: center;
+  vertical-align: left;
+  margin: 0;
+  padding: 0;
 }
